@@ -1,0 +1,53 @@
+@media (min-width:576px) {
+   .container{
+      width: 540px;
+   }
+}
+@media (min-width:768px) {
+   .container{
+      width: 720px;
+   }
+}
+@media (min-width:992px) {
+   .container{
+      width: 960px;
+   }
+}
+
+@media (max-width:992px) {
+   .form {
+      background: linear-gradient( rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%, transparent 100%),
+        url("../../images/image-register.jpg");
+      
+    }
+   .coustem-form{
+      width: 100%;
+   }
+   .from-contrl input {
+      width: 100%;
+      margin: auto;
+      padding: 20px 5px ;
+   }
+   .eror{
+      display: block;
+      padding: 5px 8px;
+      color: rgb(0, 0, 0);
+      font-size: 16px;
+      font-weight: 600;
+      background-color: rgb(255, 179, 179);
+      width: 70%;
+      border-radius: 5px;
+      margin: 5px;
+   }
+}
+
+@media (min-width:1200px) {
+   .container{
+      width: 1140px;
+   }
+}
+@media (min-width:1400px) {
+   .container{
+      width: 1320px;
+   }
+}
